@@ -1,0 +1,33 @@
+body{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Resets all styling for the body so that below styling has no 8px margin around it */
+
+
+.header{
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(66, 178, 138);
+    color: white;   
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(66, 178, 138);
+    color: white;
+    font-size: larger;
+}
+
+.content{
+    border: 2px solid gray;
+    padding: 5px;
+    width: fit-content;
+    display: block;
+    margin: auto;
+    transform: translate(0%, 280%);
+}
