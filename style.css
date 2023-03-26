@@ -23,11 +23,47 @@ body{
     font-size: larger;
 }
 
+
 .content{
     border: 2px solid gray;
-    padding: 5px;
-    width: fit-content;
-    display: block;
-    margin: auto;
-    transform: translate(0%, 280%);
+    padding: 20px;
+    width: 140px;
+    height: 200px;
+    position: absolute;
+    top: 40%;
+    left: 48%;
+    margin: -50px 0 0 -50px;
+}
+
+.output{
+    text-align: end;
+    border: 1px solid lightgray;
+    width: 75px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.numbers,
+.operators{
+    display: flex;
+    flex-wrap: wrap-reverse;
+
+}
+
+.operators{
+    width: 38px;
+}
+
+
+button{
+    height: 30px;
+    width: 30px;
+}
+
+.topLine{
+    display: flex;
+    justify-content: space-between;
 }
