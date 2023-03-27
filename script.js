@@ -1,24 +1,8 @@
+const calcInput = document.querySelector('.content')
+const allButtons = document.querySelectorAll('button')
 
-let firstNumber = 0
-let secondNumber = 0
-let operator = ' '
-
-function add(firstNumber, secondNumber){
-    result = firstNumber + secondNumber
-    return result
-}
-
-function subtract(firstNumber, secondNumber){
-    result = firstNumber - secondNumber
-    return result
-}
-
-function multiply(firstNumber, secondNumber){
-    result = firstNumber * secondNumber
-    return result
-}
-
-function divide(firstNumber, secondNumber){
-    result = firstNumber / secondNumber
-    return result
-}
+allButtons.forEach(button => {
+    button.addEventListener('click', (e) => {
+       console.log(e.target.dataset.value) 
+    } )
+})
