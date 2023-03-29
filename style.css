@@ -50,13 +50,13 @@ body{
 }
 
 .numbers,
-.operators{
+.executions{
     display: flex;
     flex-wrap: wrap-reverse;
 
 }
 
-.operators{
+.executions{
     width: 38px;
 }
 
