@@ -35,6 +35,7 @@ operators.forEach((op) => op.addEventListener('click', function(e){
 
 equal.addEventListener('click', function(e){
     operation()
+    answer = +answer.toFixed(2);
     output.textContent = answer
 })
 
