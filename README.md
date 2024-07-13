@@ -1,4 +1,4 @@
-# TOP-Calculator
+# Calculator Website
 The Odin Project: https://www.theodinproject.com/
 
 # Project Overview
